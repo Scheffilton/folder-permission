@@ -20,7 +20,7 @@
     {"lang": "en", "name": "English", "path": "lang/en.json"}
   ],
   "esmodules": ["scripts/player-permissions.js"],
-  "manifest": "https://raw.githubusercontent.com/Scheffilton/token-mobile-control/refs/heads/main/module.json",
-  "download": "https://github.com/Scheffilton/token-mobile-control/archive/refs/heads/main.zip"
+  "manifest": "https://raw.githubusercontent.com/Scheffilton/folder-permission/refs/heads/main/module.json",
+  "download": "https://github.com/Scheffilton/folder-permission/archive/refs/heads/main.zip"
 }
 }
