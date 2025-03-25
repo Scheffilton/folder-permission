@@ -1,0 +1,9 @@
+{
+  "PLAYER_FOLDER_PERMISSIONS": "Player-Specific Permissions",
+  "PERMISSION_LEVEL": "Permission Level",
+  "NO_ACCESS": "No Access",
+  "READ_ONLY": "Read Only",
+  "READ_WRITE": "Read & Write",
+  "SAVE": "Save",
+  "CANCEL": "Cancel"
+}
