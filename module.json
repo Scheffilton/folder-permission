@@ -14,12 +14,13 @@
       "flags": {}
     }
   ],
-  "scripts": ["scripts/player-permissions.js"],
   "styles": ["styles/styles.css"],
   "languages": [
     {"lang": "de", "name": "Deutsch", "path": "lang/de.json"},
     {"lang": "en", "name": "English", "path": "lang/en.json"}
   ],
-  "esmodules": [],
-  "socket": false
+  "esmodules": ["scripts/player-permissions.js"],
+  "manifest": "https://raw.githubusercontent.com/Scheffilton/token-mobile-control/refs/heads/main/module.json",
+  "download": "https://github.com/Scheffilton/token-mobile-control/archive/refs/heads/main.zip"
+}
 }
