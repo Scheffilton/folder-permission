@@ -1,0 +1,9 @@
+{
+  "PLAYER_FOLDER_PERMISSIONS": "Spielerspezifische Berechtigungen",
+  "PLAYER_FOLDER_PERMISSIONS_DESCRIPTION": "Setze spezifische Ordner-Berechtigungen für Spieler.",
+  "PLAYER": "Spieler",
+  "READ": "Lesen",
+  "WRITE": "Schreiben",
+  "SAVE": "Speichern",
+  "CANCEL": "Abbrechen"
+}
