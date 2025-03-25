@@ -1,0 +1,30 @@
+<form>
+  <table>
+    <thead>
+      <tr>
+        <th>{{localize "PLAYER"}}</th>
+        <th>{{localize "PERMISSION_LEVEL"}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each players as |player|}}
+      <tr>
+        <td>
+          <span class="player-name" title="{{player.name}}">{{player.name}}</span>
+        </td>
+        <td>
+          <select name="permissions.{{player.id}}" class="permission-dropdown">
+            <option value="none" {{#if (eq player.permission "none")}}selected{{/if}}>{{localize "NO_ACCESS"}}</option>
+            <option value="read" {{#if (eq player.permission "read")}}selected{{/if}}>{{localize "READ_ONLY"}}</option>
+            <option value="write" {{#if (eq player.permission "write")}}selected{{/if}}>{{localize "READ_WRITE"}}</option>
+          </select>
+        </td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+  <div class="button-row">
+    <button type="submit">{{localize "SAVE"}}</button>
+    <button type="button" class="cancel">{{localize "CANCEL"}}</button>
+  </div>
+</form>
