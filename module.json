@@ -1,0 +1,25 @@
+{
+  "id": "folder-permissions",
+  "title": "Player specific folder permissions",
+  "description": "Allows you to set folder permissions (read, write, read&write) per player.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "Scheffi",
+      "url": "https://ko-fi.com/scheffi",
+      "flags": {}
+    }
+  ],
+  "scripts": ["scripts/player-permissions.js"],
+  "styles": ["styles/styles.css"],
+  "languages": [
+    {"lang": "de", "name": "Deutsch", "path": "lang/de.json"},
+    {"lang": "en", "name": "English", "path": "lang/en.json"}
+  ],
+  "esmodules": [],
+  "socket": false
+}
